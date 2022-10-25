@@ -1,0 +1,8 @@
+.cart-sizing {
+    top: 50px;
+    left: 90%;
+    position: absolute;
+    width: 50px;
+
+    cursor: pointer;
+}

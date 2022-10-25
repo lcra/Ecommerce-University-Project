@@ -1,0 +1,114 @@
+.content {
+  margin: 0 auto;
+  width: 60%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-collage,
+.product-info {
+  margin: 0 auto;
+  width: 30%;
+  padding: 30px;
+}
+
+.image-collage {
+  position: relative;
+  top: -115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  flex-shrink: 0;
+  max-width: 500px;
+  height: auto;
+
+  border: 1.5px #181818 solid;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.short-descr {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.size,
+.hdescr {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.descr {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+  margin: 0px;
+  width: 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form label {
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 5px 10px;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #5d737e;
+  border: none;
+  color: #fff;
+  padding: 12px 32px;
+}
+
+input[type="radio"]:checked + label:hover {
+  background-color: #6d838e;
+}
+
+input[type="radio"]:not(:checked) + label:hover {
+  background-color: #eee;
+}
+
+input[type="submit"] {
+  padding: 15px 120px;
+  background-color: #5d737e;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s, border 0.2s;
+  border: 2px solid #5d737e;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}

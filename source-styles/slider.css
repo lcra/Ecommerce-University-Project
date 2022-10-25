@@ -1,0 +1,182 @@
+body {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  top: -35px;
+  position: relative;
+  margin: auto;
+  background-color: #181818;
+  border-bottom: #181818 1px thick;
+}
+
+.slideshow-container img {
+  max-height: 650px;
+  max-width: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.img-text-upper {
+  position: absolute;
+  top: 90px;
+  padding-left: 150px;
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 74px;
+  color:white;  
+}
+
+.img-text-middle {
+  position: absolute;
+  top: 150px;
+  padding-left: 200px;
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 74px;
+  color:white;  
+}
+
+.img-text-lower {
+  position: absolute;
+  top: 210px;
+  padding-left: 250px;
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 74px;
+  color:white;  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  position: relative;
+  top: -100px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #5d737e;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5.5s;
+  animation-name: fade;
+  animation-duration: 5.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .05}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .05}
+  to {opacity: 1}
+}
+
+.text-fade-upper {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6;
+  animation-name: fade;
+  animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.text-fade-middle {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 8;
+  animation-name: fade;
+  animation-duration: 8s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.text-fade-lower {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 10;
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}

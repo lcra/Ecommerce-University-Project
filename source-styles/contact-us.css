@@ -1,0 +1,79 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.heading-container {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-container > p {
+  width: 100%;
+}
+
+.contact-container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  color: white;
+  border-radius: 10px;
+}
+
+.form,
+.success {
+  margin: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.success {
+  display: none;
+}
+
+.form > input,
+.form > textarea {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.contact-heading {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.contact-text {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -3px;
+}
+
+input[type="submit"] {
+  padding: 15px 120px;
+  background-color: #5d737e;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s, border 0.2s;
+  border: 3px solid white;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #fff;
+}
